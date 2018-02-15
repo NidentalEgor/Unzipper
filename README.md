@@ -4,7 +4,7 @@
 ```sh
 git clone --recursive https://github.com/NidentalEgor/Unzipper
 cd Unzipper/Build
-[bash linux.sh / windows.cmd] [Release / Debug]
+windows.cmd
 ```
 #### **Сборка:**
 Собирается с помощью Visual Studio 2015.
