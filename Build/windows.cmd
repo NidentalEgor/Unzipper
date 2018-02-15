@@ -11,7 +11,7 @@ set BUILD_DIRECTORY=VS_15\%CMAKE_BUILD_TYPE%
 if not exist %BUILD_DIRECTORY% mkdir %BUILD_DIRECTORY%
 cd %BUILD_DIRECTORY%
 
-cmake -DCMAKE_BUILD_TYPE=%CMAKE_BUILD_TYPE% -G"Visual Studio 14 2015" ..\..\..\
+cmake -DCMAKE_BUILD_TYPE=%CMAKE_BUILD_TYPE% -G "Visual Studio 14 2015" ..\..\..\
 
 cd ..\..\
 goto seccess

@@ -1,0 +1,6 @@
+<!DOCTYPE RCC>
+<RCC version="1.0">
+    <qresource>
+        <file alias="archive.zip">Resources/archive.zip</file>
+    </qresource>
+</RCC>

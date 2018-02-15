@@ -3,14 +3,8 @@ project (Unzipper)
 
 set(CMAKE_CXX_FLAGS ${CMAKE_CXX_FLAGS} "-std=c++14")
 
-find_package(Qt5Widgets)
+include_directories(${CMAKE_CURRENT_SOURCE_DIR}/Submodules/ziplib/Source/ZipLib)
 
 add_subdirectory(Submodules)
-
-add_executable(
-    Unzipper
-    ${CMAKE_CURRENT_SOURCE_DIR}/Main.cpp)
-
-target_link_libraries(
-    Unzipper
-    Qt5::Widgets)
+add_subdirectory(Zipper)
+add_subdirectory(Unzipper)

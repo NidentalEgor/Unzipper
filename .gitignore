@@ -1,2 +1,5 @@
 Build/Linux
 Build/VS_15
+cmake-build-debug
+cmake-build-release
+.idea
